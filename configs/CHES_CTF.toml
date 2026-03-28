@@ -1,0 +1,7 @@
+dataset_type = "CHES_CTF"
+dataset_path = "../Datasets/CHES_CTF/ches_ctf_raw.h5"
+target_byte = 0
+prf_num = 35000
+atk_num = 5000
+val_size = 5000
+val_threshold = 0.12

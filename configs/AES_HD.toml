@@ -1,0 +1,6 @@
+dataset_type = "AES_HD"
+dataset_path = "../Datasets/AES_HD/AES_HD.h5"
+target_byte = 7
+prf_num = 35000
+atk_num = 5000
+val_size = 5000
