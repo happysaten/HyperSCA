@@ -1,0 +1,28 @@
+[project]
+name = "hypersca"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13, <3.14"
+dependencies = [
+    "h5py>=3.15.1",
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.8",
+    "numba>=0.63.1",
+    "nvitop>=1.6.1",
+    "optuna>=4.6.0",
+    "optunahub>=0.4.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.8.0",
+    "tomli-w>=1.2.0",
+    "torch>=2.9.1",
+    "tqdm>=4.67.1",
+]
+
+# [[tool.uv.index]]
+# name = "ustc"
+# url = "https://mirrors.ustc.edu.cn/pypi/simple/"
+
+# [tool.uv]
+# python-install-mirror = "https://registry.npmmirror.com/-/binary/python-build-standalone/"
+# link-mode = "copy"

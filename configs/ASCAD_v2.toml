@@ -1,0 +1,6 @@
+dataset_type = "ASCAD_v2"
+dataset_path = "../Datasets/ASCAD_v2/ascadv2-extracted.h5"
+target_byte = 0
+prf_num = 35000
+atk_num = 5000
+val_size = 5000
